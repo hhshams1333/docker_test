@@ -1,0 +1,4 @@
+To Run Project first run fileserver.sh then fileclient.sh
+
+To connect containers in this project I used network flag in docker run command so both of them use shams network.
+Then in the client I sent an http request to server container, that was taged as serverContainer
